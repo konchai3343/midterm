@@ -23,7 +23,7 @@ var httpsServer = https.createServer(credentials, app);
 //app.use(express.static(path.resolve(__dirname, '..', 'build')));
 
 const db = mysql.createConnection({
-    host: '172.26.112.1',
+    host: 'localhost',
     user: 'bom',
     password: '1234',
     database: 'testing'
